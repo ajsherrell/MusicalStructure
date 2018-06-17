@@ -6,12 +6,12 @@ public class Display {
     private String mSong;
 
     // artist name
-    private String mArtist;
+    private String mInfo;
 
     // constructs display object with initial values
-    public Display(String song, String artist) {
+    public Display(String song, String info) {
         mSong = song;
-        mArtist = artist;
+        mInfo = info;
     }
 
     // get song
@@ -20,8 +20,8 @@ public class Display {
     }
 
     // get artist
-    public String getArtist() {
-        return mArtist;
+    public String getInfo() {
+        return mInfo;
     }
 
 }

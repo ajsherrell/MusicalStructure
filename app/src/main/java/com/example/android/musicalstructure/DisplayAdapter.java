@@ -29,8 +29,8 @@ public class DisplayAdapter extends ArrayAdapter<Display> {
         Display currentDisplay = getItem(position);
 
         // set artist text view
-        TextView artistTextView  = (TextView) listItemView.findViewById(R.id.artistTextView);
-        artistTextView.setText(currentDisplay.getArtist());
+        TextView infoTextView  = (TextView) listItemView.findViewById(R.id.infoTextView);
+        infoTextView.setText(currentDisplay.getInfo());
 
         // set song text view
         TextView songsTextView = (TextView) listItemView.findViewById(R.id.songsTextView);
