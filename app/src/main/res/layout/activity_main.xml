@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/artists"
+        android:text="@string/artists"
+        android:background="@color/colorSecondary"
+        style="@style/CategoryStyle"/>
+
+    <TextView android:id="@+id/songs"
+        android:text="@string/songs"
+        android:background="@color/colorAccentSecondary"
+        style="@style/CategoryStyle"/>
+
+</LinearLayout>
