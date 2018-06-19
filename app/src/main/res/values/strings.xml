@@ -4,6 +4,9 @@
     // songs category
     <string name="songs">Songs</string>
 
-    // artists category
-    <string name="artists">Artists</string>
+    // favorites category
+    <string name="favorites">Favorites</string>
+
+    // title
+    <string name="title">Music</string>
 </resources>

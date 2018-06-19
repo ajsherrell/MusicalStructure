@@ -8,8 +8,12 @@
     android:background="@color/colorAccent"
     tools:context=".MainActivity">
 
-    <TextView android:id="@+id/artists"
-        android:text="@string/artists"
+    <TextView
+        android:text="@string/title"
+        style="@style/TitleStyle"/>
+
+    <TextView android:id="@+id/favorites"
+        android:text="@string/favorites"
         android:background="@color/colorSecondary"
         style="@style/CategoryStyle"/>
 

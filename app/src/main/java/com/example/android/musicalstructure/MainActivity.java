@@ -1,6 +1,5 @@
 package com.example.android.musicalstructure;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,17 +27,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // find the text view for the artists category
-        TextView artists = (TextView) findViewById(R.id.artists);
+        // find the text view for the favorites category
+        TextView favorites = (TextView) findViewById(R.id.favorites);
 
-        artists.setOnClickListener(new View.OnClickListener() {
+        favorites.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // create a new intent to open the {@link ArtistActivity}
-                Intent artistsIntent = new Intent(MainActivity.this, ArtistActivity.class);
+                // create a new intent to open the {@link FavoritesActivity}
+                Intent favoritesIntent = new Intent(MainActivity.this, FavoritesActivity.class);
 
                 // start new activity
-                startActivity(artistsIntent);
+                startActivity(favoritesIntent);
             }
         });
 

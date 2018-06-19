@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ArtistActivity extends AppCompatActivity{
+public class FavoritesActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,16 @@ public class ArtistActivity extends AppCompatActivity{
 
         // add elements to array list
         displays.add(new Display("Born This Way", "Lady Gaga"));
+        displays.add(new Display("Don't Let Me Down", "The Chain Smokers"));
+        displays.add(new Display("The Sound of Silence", "Disturbed"));
+        displays.add(new Display("After The Storm", "Mumford & Sons"));
+        displays.add(new Display("Fade Into You", "Nashville"));
+        displays.add(new Display("Ride", "SoMo"));
+        displays.add(new Display("I Know Places", "Taylor Swift"));
+        displays.add(new Display("New Rules", "Dua Lipa"));
+        displays.add(new Display("Overjoyed", "Bastille"));
+        displays.add(new Display("Wildest Dreams", "Taylor Swift"));
+
 
         // Create an {@link DisplayAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
